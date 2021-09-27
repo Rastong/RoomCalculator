@@ -32,7 +32,7 @@ namespace Room_Calculator
                 Console.WriteLine("Would you like to input another room? yes or no");
                 string input = Console.ReadLine();
 
-                if (input == "yes")
+                if (input.ToLower() == "yes"||input.ToLower() == "y")
                 {
                     done = true;
                 }
